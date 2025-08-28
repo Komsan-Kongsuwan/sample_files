@@ -1,9 +1,9 @@
 import streamlit as st
 
-with open("fake_380_materials_real.csv", "rb") as file:
+with open("Profit and Loss - sample.xlsx", "rb") as file:
     st.download_button(
-        label="📥 Download 380 Materials (CSV)",
+        label="📥 Profit and Loss - sample",
         data=file,
-        file_name="fake_380_materials_real.csv",
-        mime="text/csv",
+        file_name="Profit and Loss - sample.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
