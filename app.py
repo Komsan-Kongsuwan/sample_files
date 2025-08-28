@@ -39,3 +39,12 @@ with open("Monthly Customer Revenue - sample.xlsx", "rb") as file:
         file_name="Monthly Customer Revenue - sample.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+
+with open("Warehouse 3D Design - sample.png", "rb") as file:
+    st.download_button(
+        label="📥 Download Warehouse 3D Design - sample",
+        data=file,
+        file_name="Warehouse 3D Design - sample.png",
+        mime="image/png"
+    )
+
