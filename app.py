@@ -50,4 +50,5 @@ with open("Warehouse 3D Design - sample.png", "rb") as file:
         mime="image/png"
     )
 
-st.write("These files generated from mockup data")
+st.write("*These files generated from mockup data")
+st.write("If you have any comment, please feel free to send me your comment to komsan.kongsuwan@gmail.com")
