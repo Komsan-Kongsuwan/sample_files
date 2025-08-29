@@ -54,9 +54,20 @@ st.write("*These files generated from mockup data")
 
 import streamlit as st
 
-st.write(
-    'If you have any comment, please feel free to send me your comment to '
-    '[komsan.kongsuwan@gmail.com](mailto:komsan.kongsuwan@gmail.com)'
-)
+subject = "Feedback from Streamlit app"
+body = "Hello Komsan,%0A%0AI would like to share my comment:%0A"
 
+st.markdown(
+    f"""
+    <div style="background-color:#1E90FF; padding:10px; border-radius:8px;">
+        <p style="color:white; font-size:16px;">
+            If you have any comment, please feel free to send me your comment to 
+            <a href="mailto:komsan.kongsuwan@gmail.com?subject={subject}&body={body}" style="color:white; font-weight:bold; text-decoration:underline;">
+                komsan.kongsuwan@gmail.com
+            </a>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
