@@ -51,8 +51,9 @@ with open("Warehouse 3D Design - sample.png", "rb") as file:
     )
 
 st.write("*These files generated from mockup data")
+st.write("")
+st.write("")
 
-import streamlit as st
 
 subject = "Feedback from Streamlit app"
 body = "Hello Komsan,%0A%0AI would like to share my comment:%0A"
