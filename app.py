@@ -61,7 +61,7 @@ st.markdown(
     f"""
     <div style="background-color:#1E90FF; padding:10px; border-radius:8px;">
         <p style="color:white; font-size:16px;">
-            If you have any comment, please feel free to send me your comment to 
+            Thank you for your interesting, if you have any comment, please feel free to send me your comment to: 
             <a href="mailto:komsan.kongsuwan@gmail.com?subject={subject}&body={body}" style="color:white; font-weight:bold; text-decoration:underline;">
                 komsan.kongsuwan@gmail.com
             </a>
