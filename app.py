@@ -52,12 +52,11 @@ with open("Warehouse 3D Design - sample.png", "rb") as file:
 
 st.write("*These files generated from mockup data")
 
-subject = "Feedback from sample excel file and app"
-body = "Hello Komsan,\n\nI would like to share my comment:\n"
+import streamlit as st
 
 st.write(
     'If you have any comment, please feel free to send me your comment to '
-    f'[komsan.kongsuwan@gmail.com](mailto:komsan.kongsuwan@gmail.com?subject={subject}&body={body})'
+    '[komsan.kongsuwan@gmail.com](mailto:komsan.kongsuwan@gmail.com)'
 )
 
 
