@@ -51,4 +51,9 @@ with open("Warehouse 3D Design - sample.png", "rb") as file:
     )
 
 st.write("*These files generated from mockup data")
-st.write("If you have any comment, please feel free to send me your comment to komsan.kongsuwan@gmail.com")
+
+st.write(
+    'If you have any comment, please feel free to send me your comment to '
+    '[komsan.kongsuwan@gmail.com](mailto:komsan.kongsuwan@gmail.com)'
+)
+
