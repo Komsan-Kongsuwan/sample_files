@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("<h2 style='text-align:left; font-size:28px;'>Download link as below</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:left; font-size:28px;'>Sample files for viewing, click for download.</h2>", unsafe_allow_html=True)
 
 with open("Profit and Loss - sample.xlsx", "rb") as file:
     st.download_button(
