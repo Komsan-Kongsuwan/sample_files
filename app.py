@@ -16,7 +16,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.write("Download link for sample files")
+st.markdown("<h2 style='text-align:left; font-size:28px;'>Download link as below</h2>", unsafe_allow_html=True)
+
 with open("Profit and Loss - sample.xlsx", "rb") as file:
     st.download_button(
         label="📥 Profit and Loss - sample",
