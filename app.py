@@ -42,6 +42,14 @@ with open("Monthly Customer Revenue - sample.xlsx", "rb") as file:
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
 
+with open("Price Simulation - sample.xlsx", "rb") as file:
+    st.download_button(
+        label="📥 Price Simulation - sample",
+        data=file,
+        file_name="Price Simulation - sample.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
+
 with open("Warehouse 3D Design - sample.png", "rb") as file:
     st.download_button(
         label="📥 Download Warehouse 3D Design - sample",
